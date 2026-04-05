@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Database
+fugui.db
+fugui.db-shm
+fugui.db-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Claude Code
+_agent_work/
+
+# Temporary test files
+test_datasource.py
+test_datasource2.py
+test_deep.py
+test_fix.py
+test_market_cap.py
+
+# User private data
+策略原档/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
